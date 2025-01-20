@@ -8,38 +8,15 @@ import List from './List';
 import StudentProprs from './StudentProprs';
 
 import NewButton from './NewButton';
+import Counter from './Counter';
 function App() {
  
   return (
 
+    
     <>
+<Counter></Counter>
 
-   {/* <Card/>
-   <br />
-   <br />
-   <br />
-   <Form/>
-   <BasicCard/>
-   <br />
-   <br /> */}
-   <ActionAreaCard/>
-  
-  {/* <StudentProprs  name= "Batman" age= {41} isHero = {true}/>
-
-  <StudentProprs  name= "Superman" age= {34} isHero = {true}/>
-  
-  <StudentProprs  name= "Flash" age= {21} isHero = {true}/>
-  
-  <StudentProprs  name= "Darkseid" age= {5000} isHero = {false}/>
-
-  <StudentProprs  name= "Lex Luthor" age= {31} isHero = {false}/>
-
-  <StudentProprs  name= "Joker" age= {36} isHero = {false}/>
-<StudentProprs/> */}
- 
-
- <List/>
-<NewButton/>
 </>
 
    
