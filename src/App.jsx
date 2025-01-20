@@ -4,12 +4,16 @@ import './App.css'
 import BasicCard from './BasicCard';
 import Card from './Card';
 import Form from './Form';
+import List from './List';
 import StudentProprs from './StudentProprs';
 
+import NewButton from './NewButton';
 function App() {
  
   return (
+
     <>
+
    {/* <Card/>
    <br />
    <br />
@@ -20,7 +24,7 @@ function App() {
    <br /> */}
    <ActionAreaCard/>
   
-  <StudentProprs  name= "Batman" age= {41} isHero = {true}/>
+  {/* <StudentProprs  name= "Batman" age= {41} isHero = {true}/>
 
   <StudentProprs  name= "Superman" age= {34} isHero = {true}/>
   
@@ -31,8 +35,11 @@ function App() {
   <StudentProprs  name= "Lex Luthor" age= {31} isHero = {false}/>
 
   <StudentProprs  name= "Joker" age= {36} isHero = {false}/>
-<StudentProprs/>
+<StudentProprs/> */}
  
+
+ <List/>
+<NewButton/>
 </>
 
    

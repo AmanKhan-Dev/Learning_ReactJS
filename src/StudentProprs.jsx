@@ -2,8 +2,6 @@
 
 // Conditional Rendering : Conditional rendering in React refers to rendering certain components or UI elements based on specific conditions. You can think of it as a way to display different content depending on the state of your application or the value of variables.
 
-
-
 import PropTypes from "prop-types"
 function StudentProprs(props){
 const hero = "Hero";
