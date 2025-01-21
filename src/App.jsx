@@ -9,6 +9,7 @@ import StudentProprs from './StudentProprs';
 
 import NewButton from './NewButton';
 import Counter from './Counter';
+import OnChange from './OnChange';
 function App() {
  
   return (
@@ -16,6 +17,8 @@ function App() {
     
     <>
 <Counter></Counter>
+
+<OnChange></OnChange>
 
 </>
 
