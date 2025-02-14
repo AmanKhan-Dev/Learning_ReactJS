@@ -10,6 +10,9 @@ import StudentProprs from './StudentProprs';
 import NewButton from './NewButton';
 import Counter from './Counter';
 import OnChange from './OnChange';
+import DoubleCounter from './DoubleCounter';
+
+import GitHubContribution from './GitCalender_PAge';
 function App() {
  
   return (
@@ -20,6 +23,9 @@ function App() {
 
 <OnChange></OnChange>
 
+
+<GitHubContribution></GitHubContribution>
+<DoubleCounter></DoubleCounter>
 </>
 
    

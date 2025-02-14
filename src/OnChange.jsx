@@ -59,7 +59,7 @@ function OnChange() {
       />
       <h3>{message}</h3>
 
-      <select value={payment} onChange={handlePaymentOption}>
+      <select value={payment} onChange={handlePaymentOption}> 
       <option value=" ">Please Select Payment Option </option>
       <option value="Debit/Credit Cards">Debit/Credit Cards</option>
       <option value="Net Banking">Net Banking</option>
