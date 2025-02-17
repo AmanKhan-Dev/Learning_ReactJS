@@ -2,11 +2,26 @@ import { useState } from "react";
 import Button from '@mui/material/Button'
 
 function Counter(){
-const [count,setCount] = useState(0)
+const [count,setCount] = useState(0);
+
+
+// Updater Function: setCount is called with an updater function prevCount => prevCount + 1, which takes the previous state (prevCount) and returns the new state.
+
 
 const[name,setname] = useState();
-const increment = () => setCount(count +1);
-const decrement = () =>setCount(count -1);
+const increment = () => {
+  setCount(c => c+1)
+  setCount(c => c+1);
+  setCount(c => c+1);
+
+
+};
+const decrement = () =>{
+  setCount(c => c-1)
+  setCount(c => c-1);
+  setCount(c => c-1);
+
+};
 const reset = () => setCount(0);
 
 const setUsername = () => {

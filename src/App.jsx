@@ -13,19 +13,26 @@ import OnChange from './OnChange';
 import DoubleCounter from './DoubleCounter';
 
 import GitHubContribution from './GitCalender_PAge';
+import NavbarEx from './components/Navbar';
+import BasicExample from './components/Navbar';
+import FormExample from './FormExample';
+import ResponsiveAppBar from './components/Navbar';
 function App() {
  
   return (
 
     
     <>
-<Counter></Counter>
+{}
+<ResponsiveAppBar></ResponsiveAppBar>
+
+/* <Counter></Counter>
 
 <OnChange></OnChange>
 
 
 <GitHubContribution></GitHubContribution>
-<DoubleCounter></DoubleCounter>
+<DoubleCounter></DoubleCounter> */
 </>
 
    
